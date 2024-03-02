@@ -1,0 +1,174 @@
+/* resets */
+/* All color, padding, container, clear, and other utility classes */
+/* Styling for header and footer classes, which are on each webpage */
+
+:root {
+    --clr_drk : #333;
+    --clr_drk_gray : #444;
+    --clr_accent: #F7C08A;
+    --clr_drk_white: #f4f4f4;
+    --clr_gray:#ddd;
+}
+
+/* Resets and Font */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/* Color Classes */
+.clr_drk_white {
+    background-color: var(--clr_drk);
+    color: white;
+}
+
+.clr_drk_white_drk {
+  background: var(--clr_drk_white);
+  color: var(--clr_drk);
+}
+
+.clr_drk_gray_accent {
+    background-color: var(--clr_drk_gray);
+    color: var(--clr_accent);
+}
+
+.clr_drk_gray_white {
+    background-color: var(--clr_drk_gray);
+    color: white;
+}
+
+.clr_accent {
+    color: var(--clr_accent);
+}
+
+.clr_accent_drk {
+    background-color: var(--clr_accent);
+    color: var(--clr_drk);
+}
+/* Utlity classes */
+
+.clear_float {
+    clear:both;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow:auto;
+    text-align: center;
+
+}
+
+
+
+/* Padding classes */
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+.p-3 {
+    padding: 30px;
+}
+
+.p-4 {
+    padding: 40px;
+}
+.p-8 {
+    padding: 80px;
+}
+.py-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.py-2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.py-3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.py-5 {
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+
+.px-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.px-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.px-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.px-9 {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+/*  Margin classes */
+
+.mx-1 {
+    margin: 0 10px;
+}
+
+.mx-2 {
+    margin: 0 20px;
+}
+
+/* Header styling */
+#logo {
+    float: left;
+
+}
+
+/* Floating the UL to the right and then each li to the left within the ul,
+removes the space between each ul item, meaning the shading covers entire width */
+#navbar ul {
+    float: right;
+}
+
+#navbar li {
+    float:left;
+}
+
+
+#navbar li a {
+    display: block;
+    color: white;
+}
+
+#navbar li a:hover, #navbar li a.selected  {
+    background-color: var(--clr_drk_gray);
+    color: var(--clr_accent);
+
+
+}
+
+/* Footer styling */
+#footer {
+    text-align: center;
+}

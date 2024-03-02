@@ -1,0 +1,6 @@
+#333333  dark color;
+#F7C08A  accent;
+#fff white;
+
+#f4f4f4  light grey;  background on btn light
+#ddd    textarea border medium gray
