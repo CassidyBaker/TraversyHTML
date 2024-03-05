@@ -1,0 +1,3 @@
+Check for git installed:
+   1)open terminal window
+   2)git version
