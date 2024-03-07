@@ -1,0 +1,116 @@
+@media (max-width:768px)  {
+
+    /* Header */
+    #logo {
+        float:none;
+    }
+
+    #navbar ul {
+        float:none;
+    }
+    #navbar ul li {
+        float:none;
+    }
+
+    #navbar li a {
+        padding-top:2vh;
+        padding-bottom: 2vh;
+        border-bottom: 1px solid var(--clr_drk_gray);
+
+    }
+
+    /* Home Welcome section */
+    #welcome {
+        padding: 15vh 2vw 4vh;
+        height:100vh;
+    }
+
+    #welcome h1 {
+        padding: 0;
+    }
+
+    #welcome p {
+        padding: 8vh 5vw 3vh;
+        line-height: 1.5rem;
+    }
+
+
+    /* Home History Section */
+    #history .history_image {
+        display:none;
+    }
+
+    #history .history_article h1{
+        padding: 0;
+    }
+
+    #history .history_article {
+        padding: 2vh 3vw 5vh;
+    }
+
+    /* Home amenities */
+
+    #amenities div {
+        float:none;
+        width: 100vw;
+    }
+
+
+    /* About page about */
+
+    #about_article, #about_image {
+        float: none;
+        width: 100vw;
+    }
+
+    #about_article  {
+
+        padding: 7vh 5vw;
+
+    }
+
+    #about_article h1 {
+        text-align:center;
+
+    }
+
+    /* About page testimonials */
+    #testimonial {
+        padding: 20vh 2vw 5vh;
+        height: fit-content;
+    }
+
+    #testimonial img {
+        width: 20vw;
+    }
+
+    #testimonial .review {
+        margin: 10vh 1vw;
+    }
+
+
+    /* Contact Us Page */
+    #main {
+        padding: 5vh 3vw;
+
+    }
+
+    #main h1 {
+        text-align:center;
+    }
+
+    #contact_details {
+        padding: 0;
+
+    }
+    .contact_details {
+        float: none;
+        padding:0 3vw;
+        width: 100%;
+        border-bottom: 1px solid var(--clr_drk_gray);
+
+    }
+
+
+
+}
